@@ -7,7 +7,7 @@
     url("../Fonts/Epilogue-Medium.ttf") format("ttf");
 }
 
-@media all and (min-width: 376px){
+@media screen and (min-width: 501px){
     .mobile-header, .mobile-preview, .mobile-latest-work, .mobile-logos{
         display: none;
     }
@@ -431,10 +431,9 @@
     }
 }
 
-@media all and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     body {
         margin: 0 auto;
-        width: 375px;
 
 
     }
@@ -553,7 +552,6 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        width: 375px;
         height: 354.83px;
         margin-bottom: 150px;
     }
