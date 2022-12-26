@@ -1,0 +1,639 @@
+@font-face {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+
+    src: local("Epilogue-Medium"),
+    url("../Fonts/Epilogue-Medium.ttf") format("ttf");
+}
+
+@media screen and (min-width: 501px) {
+    .mobile-header, .mobile-preview, .mobile-latest-work, .mobile-logos {
+        display: none;
+    }
+
+
+    p {
+        font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+
+        color: #2D2D2D;
+    }
+
+    h2 {
+        font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 1px;
+
+        color: #2B2B2B;
+    }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 25px 82px;
+        gap: 10px;
+        color: white;
+        width: 235px;
+        height: 80px;
+
+        font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        /* Black */
+
+        background: #2D2D2D;
+    }
+
+
+    body {
+        margin: 0 auto;
+        width: 1280px;
+
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        width: inherit;
+        height: 80px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-family: Epilogue, sans-serif;
+
+        float: left;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo > p {
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 25px;
+        line-height: 40px;
+    }
+
+    .nav-menu {
+        font-family: Epilogue, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 40px;
+        gap: 30px;
+        float: right;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-menu p a {
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
+    .nav-menu:last-child {
+        padding-right: 25px;
+    }
+
+    .about-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        height: 537.52px;
+        background: #F9E6F0;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 70px;
+
+        width: 780px;
+        height: 297.52px;
+    }
+
+    .persona {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+
+        width: 195px;
+        height: 297.52px;
+        margin-right: 70px;
+    }
+
+    .persona > img {
+        outline: solid #2D2D2D 1.5px;
+    }
+
+    .persona > p > strong {
+        font-weight: 700;
+        text-decoration-line: underline;
+        color: #2D2D2D;
+    }
+
+
+    .desktop-header > p {
+
+        width: 515px;
+        height: 164px;
+
+        display: inline-block;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        width: inherit;
+        height: 640px;
+
+        background: #FFFFFF;
+    }
+
+    .body-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 60px;
+
+        width: 880px;
+        height: 400px;
+    }
+
+    .text > h2 {
+        width: 880px;
+        height: 144px;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        width: 880px;
+        height: 196px;
+    }
+
+    .main-text > p {
+        margin: 0;
+        width: inherit;
+        padding: 10px 0;
+        color: #2B2B2B;
+    }
+
+    .main-text > p:nth-child(1), .main-text > p:nth-child(3) {
+
+        color: #F6DCE9;
+        background-color: #009379;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        width: inherit;
+        height: 669px;
+
+        background: #FFFFFF;
+    }
+
+    .footer-info {
+        box-sizing: border-box;
+
+        display: flex;
+        gap: 70px;
+
+        width: 1080px;
+        height: 599px;
+
+        border-top: 2px solid rgba(0, 0, 0, 0.2);
+        padding-top: 70px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 60px;
+
+        width: 360px;
+        height: 313px;
+    }
+
+    .text-fields {
+        position: relative;
+        left: 96px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        width: 530px;
+        height: 529px;
+    }
+
+    .footer-message {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        width: 360px;
+        height: 217px;
+        margin-bottom: 60px;
+    }
+
+    .social-icons {
+        height: 36px;
+    }
+
+    .social-icons img {
+        margin-right: 20px;
+    }
+
+
+    .fields > .text-input:last-child > input {
+        margin-bottom: 0;
+        height: 150px;
+    }
+
+    .fields {
+        width: inherit;
+    }
+
+    .text-input {
+        width: inherit;
+    }
+
+    .text-input > textarea {
+        width: inherit;
+        height: 222px;
+        padding: 25px 25px;
+        padding-right: 0;
+
+        font-weight: 600;
+        font-family: Epilogue, sans-serif;
+        font-size: 13px;
+        line-height: 27px;
+        color: #2D2D2D;
+        border: none;
+        background-color: #F3F3F3;
+        resize: none;
+    }
+
+    .text-input > input {
+        font-weight: 600;
+        font-family: Epilogue, sans-serif;
+        font-size: 13px;
+        line-height: 27px;
+        color: #2D2D2D;
+
+        padding: 5px 25px;
+        padding-right: 0;
+        margin-bottom: 20px;
+        border-color: #F3F3F3;
+        background-color: #F3F3F3;
+        border-style: none;
+        height: 40px;
+        width: inherit;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    p {
+        font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+
+        color: #2D2D2D;
+    }
+
+    h2 {
+        font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 1px;
+
+        color: #2B2B2B;
+    }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 25px 82px;
+        gap: 10px;
+        color: white;
+        width: 235px;
+        height: 80px;
+
+        font-family: 'Epilogue', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        /* Black */
+
+        background: #2D2D2D;
+    }
+
+
+    body {
+        margin: 0 auto;
+        width: 375px;
+
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        width: inherit;
+        height: 80px;
+        justify-content: space-between;
+    }
+
+    .Menu {
+        background-image: url("../Images/Menu.png");
+        background-repeat: no-repeat;
+        height: 23px;
+        width: 25px;
+        display: inline-flex;
+        margin: 25px 25px;
+        float: right;
+    }
+
+    .logo {
+        font-family: Epilogue, sans-serif;
+
+        float: left;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo > p {
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 25px;
+        line-height: 40px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .about-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        height: 537.52px;
+        background: #F9E6F0;
+
+        padding: 120px 25px;
+        margin-bottom: 120px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 70px;
+    }
+
+    .persona {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+
+        width: 195px;
+        margin-right: 70px;
+    }
+
+    .persona > img {
+        outline: solid #2D2D2D 1.5px;
+    }
+
+    .persona > p > strong {
+        font-weight: 700;
+        text-decoration-line: underline;
+        color: #2D2D2D;
+    }
+
+
+    .desktop-header > p {
+
+        height: 164px;
+
+        display: inline-block;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+
+    main {
+        padding: 0px 25px 90px 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        width: 315px;
+        background: #FFFFFF;
+    }
+
+    .body-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 60px;
+    }
+
+    .text > h2 {
+        width: 315px;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    }
+
+    .main-text > p {
+        margin: 0;
+        width: inherit;
+        padding: 10px 0;
+        color: #2B2B2B;
+    }
+
+    .main-text > p:nth-child(1), .main-text > p:nth-child(3) {
+
+        color: #F6DCE9;
+        background-color: #009379;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        width: inherit;
+        height: 669px;
+
+        background: #FFFFFF;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        box-sizing: border-box;
+
+        display: flex;
+        gap: 30px;
+
+        border-top: 2px solid rgba(0, 0, 0, 0.2);
+        padding: 70px 25px 70px 25px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+    }
+
+    .text-fields {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        width: 300px;
+        height: 529px;
+    }
+
+    .footer-message {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        height: 217px;
+        margin-bottom: 60px;
+    }
+
+    .footer-message>h2{
+        width: 150px;
+    }
+
+    .social-icons {
+        height: 36px;
+        margin-bottom: 40px;
+    }
+
+    .social-icons img {
+        margin-right: 20px;
+    }
+
+
+    .fields > .text-input:last-child > input {
+        margin-bottom: 0;
+        height: 150px;
+    }
+
+    .fields {
+        width: inherit;
+    }
+
+    .text-input {
+        width: inherit;
+    }
+
+    .text-input > textarea {
+        width: inherit;
+        height: 222px;
+        padding: 25px 25px;
+        padding-right: 0;
+
+        font-weight: 600;
+        font-family: Epilogue, sans-serif;
+        font-size: 15px;
+        line-height: 27px;
+        color: #2D2D2D;
+        border: none;
+        background-color: #F3F3F3;
+        resize: none;
+    }
+
+    .text-input > input {
+        font-weight: 600;
+        font-family: Epilogue, sans-serif;
+        font-size: 15px;
+        line-height: 27px;
+        color: #2D2D2D;
+
+        padding: 5px 25px;
+        padding-right: 0;
+        margin-bottom: 20px;
+        border-color: #F3F3F3;
+        background-color: #F3F3F3;
+        border-style: none;
+        height: 40px;
+        width: inherit;
+    }
+}
+

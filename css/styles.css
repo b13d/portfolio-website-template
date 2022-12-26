@@ -22,9 +22,12 @@
     }
 
     .navigation {
-        /*border: 1px solid red;*/
+        display: flex;
+        /* border: 1px solid red; */
         width: inherit;
         height: 80px;
+        justify-content: space-between;
+        align-items: baseline;
     }
 
     .logo {
@@ -47,6 +50,11 @@
         float: right;
         display: flex;
         flex-direction: row;
+    }
+
+    .nav-menu>p>a{
+        text-decoration: none;
+        color:#2D2D2D;
     }
 
     .nav-menu:last-child {
@@ -439,8 +447,12 @@
     }
 
     .navigation {
+        display: flex;
+        /* border: 1px solid red; */
         width: inherit;
         height: 80px;
+        justify-content: space-between;
+        align-items: baseline;
     }
 
     .logo {
