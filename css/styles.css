@@ -41,12 +41,6 @@ p{
     justify-content: space-between;
 }
 
-.navigation {
-    /* border: 1px solid red; */
-    width: 100%;
-    justify-content: space-between;
-    align-items: baseline;
-}
 
 .logo {
     font-family: Epilogue, sans-serif;
@@ -67,9 +61,6 @@ p{
 .nav-menu > p > a {
     text-decoration: none;
     color: #2D2D2D;
-}
-
-.nav-menu:last-child {
 }
 
 header {
@@ -279,7 +270,7 @@ header {
 }
 
 footer {
-    /*border: 1px solid red;*/
+    padding: 20px;
     gap: 10px;
 
 
@@ -367,8 +358,6 @@ footer {
     background-color: #F3F3F3;
     border-style: none;
     height: 40px;
-
-
 }
 
 
@@ -568,5 +557,9 @@ footer {
 
     .latest-work-section{
         padding: 20px;
+    }
+
+    footer{
+        padding: 0;
     }
 }
